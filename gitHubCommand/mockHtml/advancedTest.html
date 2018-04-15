@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Page created to test Selenium Window HAndler</title>
+<style>
+table, th, td {
+    border: 1px solid black;
+}
+</style>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p >This is a <a id="googlelink" href="http://google.com" target="popup" >Google Link</a>.</p>
+<br/>
+<a id="childWin" href="https://gmail.com" target="_new">Gmail Link</a>
+ 
+ <br/><a href="https://yahoo.com">
+<img src="images/basic-buttons-pack.png" width="50px" height="50px" title="Yahoo Link"/>
+</a>
+<br/>
+<a href="http://sample123.com.tr" >Defunct Link1</a>
+<br/>
+<a href="http://sample123.com.ttr" >Defunct Link2</a>
+
+<br/>
+<form action="/action_page.php" id="carform">
+  Firstname:<input type="text" name="fname">
+  <input type="submit">
+</form>
+<br>
+<select name="carlist" form="carform">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="opel">Opel</option>
+  <option value="audi">Audi</option>
+</select>
+
+<table id="budget" >
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+    <th>expense</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+    <td>$90</td>
+    
+  </tr>
+  <tr>
+    <td>February</td>
+    <td>$80</td>
+    <td>$60</td>
+    
+  </tr>
+  <tr>
+    <td >Sum: </td>
+    <td>$180</td>
+    <td>$150</td>
+  </tr>
+</table>
+</body>
+</html>
